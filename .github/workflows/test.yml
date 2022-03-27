@@ -17,4 +17,4 @@ jobs:
           echo "Action run id: $GITHUB_RUN_ID"
       - name: Print Hello-world
         run: |
-          echo "$APP-NAME"
+          echo "$APP_NAME"
