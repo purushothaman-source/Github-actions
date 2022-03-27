@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  Print Hello world:
+  Print_Hello_World:
     runs-on: ubuntu-latest
     name: Print Hello world
     steps:
