@@ -15,4 +15,4 @@ jobs:
           echo "Action run id: $GITHUB_RUN_ID"
       - name: Print Hello-world
         run: |
-          echo "Hello purushoth"
+          echo "${{ secrets.APP_NAME }}"
