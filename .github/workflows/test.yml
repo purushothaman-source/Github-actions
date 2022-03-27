@@ -18,3 +18,4 @@ jobs:
       - name: Print Hello-world
         run: |
           echo "$APP_NAME"
+          echo ${{ github }}
