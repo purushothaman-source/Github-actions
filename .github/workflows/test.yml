@@ -9,10 +9,12 @@ jobs:
   Print_Hello_World:
     runs-on: ubuntu-latest
     name: Print Hello world
+    env:
+      APP_NAME: ${{ secrets.APP_NAME }}
     steps:
       - name: Print github action id
         run: |
           echo "Action run id: $GITHUB_RUN_ID"
       - name: Print Hello-world
         run: |
-          echo "${{ secrets.APP_NAME }}"
+          echo "$APP-NAME"
